@@ -3,7 +3,7 @@ package dev.tokoi.cryptotracker.crypto.presentation.models
 import android.icu.text.NumberFormat
 import androidx.annotation.DrawableRes
 import dev.tokoi.cryptotracker.crypto.domain.Coin
-import dev.tokoi.cryptotracker.util.getDrawableIdForCoin
+import dev.tokoi.cryptotracker.core.presentation.util.getDrawableIdForCoin
 import java.util.Locale
 
 data class CoinUi(
